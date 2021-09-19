@@ -5,6 +5,7 @@
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Screenshot](#screenshot)
 * [License](#license)
 * [Questions](#question)
 
@@ -24,6 +25,14 @@ The app has been deployed to Herohu and can be found [here](https://fathomless-e
 4. Then click the `save` icon. 
 5. Your note will been saved and appear in the left column. 
 6. To review any note, simply click on it and it will be displayed on the right side of the page. 
+
+## Screenshot
+
+![Note taker 1](https://murda02.github.io/wk11-note-taker/assets/img/screenshot1.png)
+
+![Note taker 2](https://murda02.github.io/wk11-note-taker/assets/img/screenshot2.png)
+
+![Note taker 3](https://murda02.github.io/wk11-note-taker/assets/img/screenshot3.png)
 
 ## License
 
