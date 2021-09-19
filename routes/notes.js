@@ -14,13 +14,14 @@ router.get ('/', (req, res) => {
 
 router.post('/', (req, res) => {
 
+  let id = Math.floor(Math.random() * 1000000)
   let newNote = req.body;
-  console.log('newNote: ', newNote);
+  newNote.id = id
 
   if (newNote) {
     readAndAppend(newNote, './db/db.json')
-    res.json(`Note added 🗒️`)
-  } else {
+    readFromFile('./db/db.json').then(data => res.json(JSON.parse(data))
+    )} else {
     res.json('you got an error')
   }
 
